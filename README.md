@@ -14,3 +14,4 @@ So once the key matches, the RFID reader sends the signal to the Arduino board. 
 # Codes used
 1) The First Code is used to scan RFID TAGs and UID is generated.
 2) The Second Code basically scans and checks if the UID aligns with the stored UID.
+3) Tip before running any code make sure to install I2C, SPI, and RFID libraries.
