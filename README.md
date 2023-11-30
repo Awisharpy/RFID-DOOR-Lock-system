@@ -11,6 +11,17 @@ At a rudimentary level, RFID systems consist of three main components: an RFID t
 
 So once the key matches, the RFID reader sends the signal to the Arduino board. The board in turn sends another signal to the SG90 micro servo. The micro servo is attached to the door handle in such a way that whenever the servo rotates the door opens.
 
+#Components used
+1) Plastic Box
+2) Rfid Module
+3) 12V solenoid Lock
+4) Arduino nano
+5) 1ch Relay Module
+6) Some Jumper Wire
+7) 5V TO 12v CONVERTOR
+8) DC Socket
+9) 5V adapter
+
 # Codes used
 1) The First Code is used to scan RFID TAGs and UID is generated.
 2) The Second Code basically scans and checks if the UID aligns with the stored UID.
